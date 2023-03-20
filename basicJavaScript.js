@@ -19,3 +19,19 @@ console.log("Conversion feet into meter: " + product);
 let area=25;
 let result1=area / 43560;
 console.log("Result : " + result1);
+
+function LeapYear(year){
+if(year % 400 == 0 || year % 4 == 0)
+{
+   console.log(year+" is a Leap year");
+}
+else if(year % 100 == 0)
+{
+   console.log(year+" is Not a Leap year");
+}
+else
+{
+   console.log(year+" is Not a Leap year");
+} 
+}
+console.log(LeapYear(2014));
