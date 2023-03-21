@@ -83,4 +83,13 @@ function PowerOfTwo(num) {
             
         }
     }
-    PowerOfTwo(5);
+PowerOfTwo(5);
+function Factorial(number){
+        let fact=1;
+for(i=1;i<=number;i++){      
+    fact=fact*i;      
+   }      
+
+console.log("Factorial of "+number+ " : "+fact);
+}
+Factorial(5);
