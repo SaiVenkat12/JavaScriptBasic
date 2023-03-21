@@ -65,4 +65,22 @@ function WeekDay(day)
             break;
     }
 }
-console.log(WeekDay(day))
+WeekDay(day);
+function PowerOfTwo(num) {
+        if (num < 2 || num > 32) {
+            console.log("Invalid input");
+        }
+        else {
+            let val = 1;
+            let i=0;
+            console.log("2 power of ",num);
+            while (i < num) {
+                val = val * 2;
+                console.log(val);
+                i++;
+            }
+            console.log("Result: "+val);
+            
+        }
+    }
+    PowerOfTwo(5);
